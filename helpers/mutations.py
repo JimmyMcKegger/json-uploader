@@ -4,11 +4,7 @@ from typing import Any
 
 
 def stagedUploadsCreate(url: str, headers: dict, input: Any) -> dict:
-    """Create staged uploads by making a POST request to the provided URL."""
-    """
-    This function creates staged uploads by making a POST request to the provided URL.
-    The request is authenticated using the provided headers and the input is used as the
-    body of the request.
+    """Create staged uploads on the shop.
 
     :param url: The URL where the request is sent.
     :param headers: The headers used for authentication.
@@ -46,7 +42,7 @@ def stagedUploadsCreate(url: str, headers: dict, input: Any) -> dict:
 
 def multipart_form(targets: dict, file: str, path: str) -> dict:
     """
-    Create a multipart form by making a POST request to the provided URL.
+    Posts multipart form to upload the file.
 
     :param targets: The targets used for the multipart form.
     :param file: The file to be uploaded.
@@ -77,7 +73,7 @@ def multipart_form(targets: dict, file: str, path: str) -> dict:
 
 def fileCreate(url: str, headers: dict, input: dict) -> dict:
     """
-    Creates a file by making a POST request to the provided URL.
+    Creates a file in Shopify with the Admin API.
 
     :param url: The URL where the request is sent.
     :param headers: The headers used for authentication.
