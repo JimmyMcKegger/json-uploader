@@ -7,7 +7,6 @@ import coloredlogs
 def get_logger() -> logging.Logger:
     """
     This function is responsible for setting up the logger.
-    It returns the logger.
     """
     logger = logging.getLogger(__name__)
     # custom format.
@@ -30,9 +29,8 @@ def get_logger() -> logging.Logger:
 
 def get_api_settings() -> Tuple[str, dict]:
     """
-    This function is responsible for setting up the configuration required for the API.
-    It reads the required values from the .env file and constructs the URL and headers.
-    It returns these two values.
+    This function is responsible for setting up the configuration required for the API,
+    and the shop name to build a link.
     """
     config = dotenv_values(".env")
 
