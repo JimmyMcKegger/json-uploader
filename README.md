@@ -19,7 +19,7 @@ The following instructions will get you a copy of the project up and running on 
 **Step 1:** Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/json-uploader.git
+git clone https://github.com/JimmyMcKegger/json-uploader.git
 ```
 
 **Step 2:** Navigate into the project directory:
