@@ -1,6 +1,6 @@
 # Shopify JSON Uploader
 
-This script allows you to upload JSON files to your Shopify store's files section from the command line via API.
+This script allows you to upload JSON files to your Shopify store's files section from the command line with the Admin API.
 
 ## Disclaimer
 This tool was independently developed and maintained. It is not in any way affiliated with, endorsed by, or supported by Shopify Inc.
