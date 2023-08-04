@@ -63,7 +63,19 @@ API_VERSION=2023-07
 API_SECRET_KEY=shpss_12312312312123123123123
 ```
 
-Save the file.
+**Step 7:** Make the script executable:
+
+On Windows:
+
+```bash
+icacls upload /grant Everyone:F
+```
+
+On MacOS/Linux:
+
+```bash
+chmod +x upload
+```
 
 That's it! You're now ready to use the script.
 
@@ -72,10 +84,10 @@ That's it! You're now ready to use the script.
 To run the script, pass the name of the JSON file you want to upload as a command-line argument:
 
 ```bash
-python app.py filename.json
+./upload path/to/file.json
 ```
 
-This will process the `filename.json` file and upload it to your Shopify store.
+This will process the `file.json` file and upload it to your Shopify store.
 
 ## Contributing
 
