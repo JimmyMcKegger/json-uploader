@@ -10,7 +10,9 @@ __pycache__/
 *.so
 
 test.json
-
+base.txt
+base64.txt
+*.otf
 # Distribution / packaging
 .Python
 build/

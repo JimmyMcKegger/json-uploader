@@ -88,6 +88,7 @@ def fileCreate(url: str, headers: dict, input: dict) -> dict:
                 ... on GenericFile {
                     id
                     alt
+                    url
                     createdAt
                     fileStatus
                     fileErrors {
